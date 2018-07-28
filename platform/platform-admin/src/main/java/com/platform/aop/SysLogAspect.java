@@ -39,6 +39,7 @@ public class SysLogAspect {
     @Pointcut("@annotation(com.platform.annotation.SysLog)")
     public void logPointCut() {
         System.out.println("打印日志");
+        System.out.println("打印日志2");
     }
 
     /**
